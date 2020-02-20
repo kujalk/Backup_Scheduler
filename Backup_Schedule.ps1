@@ -31,13 +31,13 @@ P.S - Decryption is only possible in the same machine where the encryption is do
 $global:logfile="C:\Backup\Logs\"
 $global:user_password_file="C:\Backup\Secret\user_password.txt" 
 $global:email_password_file="C:\Backup\Secret\email_password.txt"
-$global:email="backup.automation2020@gmail.com"
-$global:email_to="dcskug@nus.edu.sg"
-$global:user = "dcskug"
+$global:email="mail server address"
+$global:email_to="mail address"
+$global:user = "user name"
 $global:final_dest="C:\Backup\VM_Backup"
 $global:vm_name="bk-schedule"
 $global:ovf_location='C:\Program Files\VMware\VMware OVF Tool'
-$global:esxi_server="193.168.3.203"
+$global:esxi_server="192.168.32.213"
 $global:win_rar="C:\Program Files\WinRar"
 
 #Scripts Starts
