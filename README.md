@@ -1,10 +1,3 @@
-This script is used to perform functionalities on the VMs that are running on top of standalone ESXI hosts
-1. Stop VM
-2. Reboot VM
-3. Start VM
-4. Backup VM (OVF tool must be installed)
-5. Restart stuck services in ESXI (Does not affect running VMs)
-
 Dependencies -
 1. OVF Tool 4.3
    
